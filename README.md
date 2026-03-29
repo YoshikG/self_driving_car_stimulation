@@ -1,4 +1,4 @@
-## Selfdriving_car_stimulation
+# Selfdriving_car_stimulation
 
 Human-Centric Self-Driving Car Simulation (Prolog)
 A sophisticated autonomous vehicle simulation built in Prolog that mimics human-like reasoning and logic-based decision-making.
@@ -18,15 +18,15 @@ This repository contains a symbolic AI simulation environment for autonomous veh
 # How It Works:
 The environment is defined by a database of dynamic facts, while the car's behavior is governed by a set of inference rules. The core engine continuously evaluates the action/1 predicate, querying the knowledge base to determine the safest and most efficient move based on the current state.
 
-# Technologies:
+## Technologies:
 Language : Prolog (SWI-Prolog recommended)           
 Paradigm : Declarative Logic Programming                     
 Interface : Text-based / Console-driven state visualization
 
-# How to Run :
+## How to Run :
 Windows: Download from the SWI-Prolog website.         
 Mac: brew install swi-prolog        
 Linux: sudo apt install swi-prolog        
 
-# Load the Project
+## Load the Project
 Open your terminal and run: swipl main.pl
