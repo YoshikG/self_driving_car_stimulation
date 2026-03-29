@@ -9,7 +9,7 @@ This repository contains a **Symbolic AI simulation** environment for autonomous
 ##  Key Features
 * **Rule-Based Decision Making:** Encodes real-world traffic laws (Red/Yellow/Green/Flashing signals) into a logical expert system.
 * **Weather-Adaptive Logic:** Features a `road_condition/1` sensor that forces the AI to decelerate during rain or snow.
-* **Deterministic Hazard Avoidance:** Prioritizes emergency braking over all other actions when an obstacle is within a critical distance ($< 15m$).
+* **Deterministic Hazard Avoidance:** Prioritizes emergency braking over all other actions when an obstacle is within a critical distance .
 * **Priority-Weighted Inference:** Uses the Prolog **Cut operator (!)** to ensure critical safety rules override secondary rules like speed limits.
 * **Human-Like Logic:** Mimics the "if-then" heuristic reasoning humans use when navigating complex four-way stops or yielding scenarios.
 
